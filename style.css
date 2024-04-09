@@ -1,0 +1,268 @@
+* { 
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+}
+
+@font-face {
+    font-family: 'Humanst521 BT';
+    src: url('/fonts/Humanist521BT-Roman.woff2') format('woff2'),
+        url('/fonts/Humanist521BT-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Humnst777 Blk BT';
+    src: url('/fonts/Humanist777BT-BlackB.woff2') format('woff2'),
+        url('/fonts/Humanist777BT-BlackB.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Humanst521 Lt BT';
+    src: url('/fonts/Humanist521BT-Light.woff2') format('woff2'),
+        url('/fonts/Humanist521BT-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+body {
+
+    background-image: url(/assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.box-left {
+
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    padding-top: 100px;
+    padding-left: 200px;
+
+}
+
+
+.title-one {
+
+    font-family: 'Humnst777 Blk BT';
+    font-size: 55px;
+    color: #ffff;
+	text-shadow: 0px 1px 4px #737272;
+    width: 800px;
+    
+}
+
+
+.title-two {
+
+    font-family: 'Humnst777 Blk BT';
+    font-size: 45px;
+    color: #ffff;
+    text-shadow: 0px 1px 4px #737272;
+    width: 800px;
+   
+}
+
+
+button {
+
+    font-family: 'Humanst521 Lt BT';
+    background-color: black;
+    font-size: 40px;
+    color: #ffff;
+    width: 700px;
+    height: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+button:hover {
+    color: #fff;
+    background-color: rgb(21, 21, 110);;
+}
+
+.logo {
+
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 350px;
+
+}
+
+
+.box-right {
+
+    position: fixed;
+    bottom: 300px;
+    right: 300px;
+    width: 600px;
+
+}
+   
+
+.contato {
+
+    font-family: 'Humnst777 Blk BT';
+    font-size: 38px;
+    color: rgb(21, 21, 110);
+    text-shadow: 4px 4px 4px #ffff;
+    width: 700px;
+
+}
+
+
+.telephone {
+
+    font-family: 'Humnst777 Blk BT';
+    font-size: 70px;
+    color: #ffff;
+    text-align: center;
+    background-color: black;
+    width: 600px;
+    vertical-align: middle;
+    border-radius: 10px;
+
+}
+
+span {
+
+    font-size: 40px;
+
+}
+
+
+.icon {
+   
+    width: 60px;  
+    vertical-align: auto;
+    
+}
+
+
+footer {
+
+    font-family: 'Humanst521 Lt BT';
+    font-size: 60px;
+    color:#ffff;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+
+}
+
+
+@media screen and (max-width: 900px) {
+    body {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        position:relative;
+
+    }
+
+    .title-one {
+
+        padding-left: 26%;
+        font-size: 20px;
+
+    }
+    
+    .title-two {
+
+        padding-left: 28%;
+        font-size: 15px;
+
+    }
+ 
+    button {
+
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+        margin-left: 30%;
+        margin-bottom: 2px;
+
+    }
+
+    .logo {
+
+        width: 120px;
+        margin-left: 35%;
+        margin-top: 10px;
+
+    }
+
+    .box-right {
+
+        position: relative;
+        margin-top: 310px;
+        width: 100px;
+    
+    }
+
+    .contato {
+
+        font-size: 10px;
+        margin-left: 320px;
+    
+    }
+
+    .telephone {
+
+        width: 600px;
+        font-size: 10px;
+        vertical-align: auto;
+        padding-left: 200px;
+
+    }
+
+    span {
+
+        font-size: 5px;
+
+    }
+
+    .icon {
+
+        width: 10px;
+        vertical-align: auto;
+        overflow: hidden;
+
+    }
+
+    footer {
+
+        height: auto;
+        width:100%;
+        position:relative;
+        font-size: 5px;
+        margin-left: 80px;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 100%;
+
+    }
+
+}
