@@ -109,9 +109,9 @@ button:hover {
 .box-right {
 
     position: fixed;
-    bottom: 300px;
-    right: 300px;
-    width: 600px;
+    bottom: 150px;
+    right: 10px;
+    width: 500px;
 
 }
    
@@ -119,10 +119,10 @@ button:hover {
 .contato {
 
     font-family: 'Humnst777 Blk BT';
-    font-size: 38px;
+    font-size: 25px;
     color: rgb(21, 21, 110);
     text-shadow: 4px 4px 4px #ffff;
-    width: 700px;
+    width: 500px;
 
 }
 
@@ -130,11 +130,11 @@ button:hover {
 .telephone {
 
     font-family: 'Humnst777 Blk BT';
-    font-size: 70px;
+    font-size: 30px;
     color: #ffff;
     text-align: center;
     background-color: black;
-    width: 600px;
+    width: 400px;
     vertical-align: middle;
     border-radius: 10px;
 
@@ -142,14 +142,14 @@ button:hover {
 
 span {
 
-    font-size: 40px;
+    font-size: 20px;
 
 }
 
 
 .icon {
    
-    width: 60px;  
+    width: 30px;  
     vertical-align: auto;
     
 }
