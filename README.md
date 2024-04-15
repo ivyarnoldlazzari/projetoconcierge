@@ -12,3 +12,7 @@ Static website for an estate agency.
 
 <h1>Layout:</h1>
 <img src="https://github.com/ivyarnoldlazzari/projetoconcierge/blob/master/assets/layout.jpg">
+
+
+<h1>Deploy:</h1>
+https://projetoconcierge.netlify.app/
